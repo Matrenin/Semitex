@@ -1,0 +1,39 @@
+.footer {
+  background: #333333;
+
+  &__box {
+    padding: 71px 0;
+    display: grid;
+    grid-template-columns: 190px auto 260px;
+    align-items: center;
+
+    & button {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 19px;
+      color: #FFFFFF;
+      padding: 18px 33px;
+      background: #969AF7;
+      border-radius: 10px;
+      border: none;
+    }
+  }
+
+  &__nav {
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-around;
+
+    & a {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 122.8%;
+      color: #FFFFFF;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

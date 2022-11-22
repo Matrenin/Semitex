@@ -1,0 +1,101 @@
+.systemWork {
+  background: url("../img/systemWorkBg.png");
+
+  &__box {
+    padding: 100px 0 76px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h3 {
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 99.8%;
+      color: #111111;
+    }
+
+    & p {
+      margin-top: 24px;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 22px;
+      color: #333333;
+    }
+
+    & button {
+      background: #FFA500;
+      border-radius: 10px;
+      padding: 18px 68px;
+      text-transform: uppercase;
+      color: #fff;
+      border: none;
+      margin-top: 48px;
+    }
+  }
+
+  &__content {
+    margin-top: 46px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  &__item {
+    background-image: url("../img/advantagesBg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background: linear-gradient(95.22deg, #041080 -2.85%, #0926C0 93.37%), linear-gradient(180deg, #969AF7 0%, #686EEC 100%), #969AF7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 39px;
+    height: 286px;
+    position: relative;
+
+    // &:nth-child(1)::before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 41%;
+    //   right: -60px;
+    //   border: 30px solid transparent;
+    //   border-left: 30px solid #041080;
+    // }
+
+    // &:nth-child(2)::after {
+    //   content: "";
+    //   position: absolute;
+    //   top: 41%;
+    //   left: 0;
+    //   border: 30px solid transparent;
+    //   border-left: 30px solid transparent;
+    // }
+  }
+
+  &__count {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #969AF7;
+  }
+
+  &__desc {
+    margin-left: 16px;
+
+    & h3 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+
+    & p {
+      margin-top: 28px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #E3E3E3;
+    }
+  }
+}
